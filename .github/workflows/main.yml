@@ -25,7 +25,7 @@ jobs:
         run: |
           pip install fastapi locust pytest uvicorn coverage httpx pytest-mock pytest-profiling pylint sqlalchemy pydantic
 
-      - name: Execute test
+      - name: Eiiii
         run: |
           coverage run -m pytest; coverage xml
 
